@@ -49,9 +49,7 @@ class ViewController: UIViewController {
     
     //eggs hardness button
     
-    let eggTime: [String: Int] = ["Soft": 3,
-                                  "Medium" : 4,
-                                  "Hard" : 7]
+    let eggTime: [String: Int] = ["Soft": 3, "Medium" : 4, "Hard" : 7]
     
     @IBAction func hardnessAction(_ sender: UIButton ) {
         
